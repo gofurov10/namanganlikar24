@@ -1,0 +1,397 @@
+.ort {
+    margin: 0 auto;
+    background-color: white;
+
+}
+
+body {
+    background-color: #eaeaea;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.jc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.jc2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    width: 1440px;
+    height: 105px;
+    background-color: #f6f6f6;
+    margin: 0 auto;
+    height: 0 auto;
+}
+
+.valuemark {
+    color: #2959CE;
+    font-size: 16px;
+    font-family: Rubik;
+    font-weight: 700;
+}
+
+.valuemark2 {
+    color: #2959CE;
+    font-size: 16px;
+    font-family: Rubik;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.value{
+    color: #555;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.value2{
+    color: #555;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.logo{
+    width: 250px;
+    margin-top: 3px;
+    height: 20px;
+}
+
+input {
+    width: 275px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: #FFF;
+    border: none;
+    outline: none;
+}
+
+::placeholder {
+    color: #8D8D8D;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    left: 20px;
+}
+
+.p {
+    color: #000;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.kv {
+    width: 70px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 39px;
+    background: #DCE6FF;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    position: relative;
+    top: 10px;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    border-radius: 100%;
+    /* margin-top: 15px; */
+    margin-top: 3px;
+    /* margin-left: 50px; */
+    position: relative;
+    left: 3px;
+}
+
+.p {
+
+    position: relative;
+    bottom: 7px;
+    left: 5px;
+}
+.lofo{
+    height: 30px;
+}
+button {
+    display: flex;
+    width: 89px;
+    padding: 13px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #7296EC;
+    height: 50px;
+    margin-left: 50px;
+    border: none;
+}
+
+.p2 {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    left: -3px;
+    top: 2px;
+}
+
+p {
+    color: #A6A6A6;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    	left: 9px;
+        bottom: 6px;
+}
+
+.cont2 {
+    margin-left: 50px;
+}
+
+.cont4 {
+    margin-top: 10px;
+}
+
+.p3 {
+    margin: 18.5px;
+    color: #7F7F7F;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.cont5 {
+    margin-left: 95px;
+    width: 1220px;
+}
+
+.chiziq {
+    border-bottom: 3px solid #d1d1d1;
+    width: 1220px;
+    margin-left: 110px;
+}
+.h112{
+    color: #000;
+font-family: Rubik;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: relative;
+top: 50px;
+left: 110px;
+}
+.input2{
+    width: 343px;
+height: 55px;
+
+border-radius: 10px;
+border: 1px solid rgba(0, 0, 0, 0.20);
+background: #FFF;
+position: relative;
+left: 107px;
+top: 60px;
+
+}
+.input3{
+    width: 696px;
+height: 55px;
+border-radius: 10px;
+border: 1px solid rgba(0, 0, 0, 0.20);
+background: #FFF;
+position: relative;
+left: 109px;
+top: 64px;
+}
+.input4{
+    width: 696px;
+height: 180px;
+border-radius: 10px;
+border: 1px solid rgba(0, 0, 0, 0.20);
+background: #FFF;
+position: relative;
+left: 109px;
+top: 69px;
+}
+footer{
+    width: 1440px;
+height: 356px;
+flex-shrink: 0;
+background-color: #7297EF;
+position: relative;
+top: 180px;
+}
+.img10{
+    color: #FFF;
+font-family: Rubik;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+height: 21px;
+width: 250px;
+position: relative;
+top: 30px;
+left: 235px;
+}
+.p7{
+    color: #FFF;
+font-family: Rubik;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px; /* 158.333% */
+position: relative;
+top: 40px;
+left: 255px;
+}
+.p8{
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+line-height: 40px;
+color: #FFFFFF;
+}
+.p9{
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+line-height: 40px;
+color: #FFFFFF;
+}
+.ichki4{
+    position: relative;
+    left: 700px;
+    top: -90px;
+}
+.ichki5{
+    position: relative;
+    left: 950px;
+    top: -280px;
+}
+.cs{
+    width: 998px;
+    border-bottom: 1px solid #CECECE;
+    position: relative;
+    top: 50px;
+    right: 695px;
+}
+.hah{
+    color: #FFF;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 23px; /* 127.778% */
+margin-top: -210px;
+margin-left: 255px;
+}
+.img12{
+    width: 25px;
+height: 25px;
+position: relative;
+top: -40px;
+left: 1060px;
+margin-left: 15px;
+}
+.ttb6{
+    width: 494px;
+height: 315px;
+border-radius: 10px;
+background: #F6F6F6;
+position: relative;
+left: 120px;
+top: 75px;
+}
+.h6{
+    color: #000;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: relative;
+top: 50px;
+left: 20px;
+}
+.cq {
+    border-bottom: 1px solid #d2d2d2;
+    width: 359px;
+    position: relative;
+    /* bottom: 15px; */
+    top: 10px;
+}
+.cq2 {
+    border-bottom: 1px solid #d2d2d2;
+    width: 359px;
+    position: relative;
+    /* bottom: 15px; */
+    top: -40px;
+}
+.p6{
+    color: #000;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: relative;
+top: 10px;
+left: 20px;
+}
+.div2{
+    position: relative;
+    bottom: 10px;
+}
+.div4{
+    position: relative;
+    bottom: 120px; 
+}
+.div3{
+    position: relative;
+    bottom: 60px; 
+}
+.h65{
+    color: #000;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 130% */
+}
+.ttb7{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    position: relative;
+    top: 100px;
+}
