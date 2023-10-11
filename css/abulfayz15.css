@@ -254,6 +254,7 @@ left: 110px;
     margin-top: -15px;
     margin-right: 130px;
     flex-shrink: 0;
+    margin-left: 140px;
 }
 .div2{
     position: relative;
